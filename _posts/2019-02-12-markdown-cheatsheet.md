@@ -3,7 +3,6 @@ layout: post
 title: Markdown的语法规则
 date: 2019-02-12 23:28:55 +0100
 tags: markdown cheatsheet
-
 categories: 技术
 ---
 ## 目录
@@ -249,7 +248,11 @@ Kramdown是免费的MIT-licensed Ruby库，用来解析和转换Markdown的超�
 `{: .class}` 表示块类型  
 `{: #with-an-id}` 表示块标签  
 并结合css层叠样式表来赋予各自的样式
-
+#### 图片大小设定
+在图片代码后加入`{:height= width=}`，即可指定图片的长宽
+```
+Here is an inline ![smiley](smiley.png){:height="36px" width="36px"}
+```
 #### 自动生成目录
 在`_config.yml`中设置
 ```
