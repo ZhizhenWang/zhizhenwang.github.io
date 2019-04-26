@@ -5,20 +5,24 @@ date: 2019-02-12 23:28:55 +0100
 tags: markdown cheatsheet
 categories: 技术
 ---
+
+{::options parse_block_html="true" /}
+<div style="position:fixed; bottom: 0%; top: 91px; left:10%">
 ## 目录
 {:.no_toc}
 * TOC
 {:toc}
+</div>
 
 这里我们将介绍一下Markdown 的语法规则以及一些栗子(例子)
-## 标题
+## 1. 标题
 我们用`# title`来表示标题，井号越多，标题越小
 ```markdown
 # 一级标题
 ## 二级标题
 ### 三级标题
 ```
-## 段落及换行
+## 2. 段落及换行
 为了创建段落，用一个空行来分割一行或多行文字
 <table>
     <tr>
@@ -80,36 +84,36 @@ categories: 技术
   </tbody>
 </table>
 
-## 强调文本
+## 3. 强调文本
 对文本表示强调，可以使用加粗、斜体或者两者都用
-### 加粗
+### 3.1 加粗
 用两个星号*或下划线_来包围文本  
 如：表示**bold**，可用
 ```
 **bold**
 __bold__
 ```
-### 斜体
+### 3.2 斜体
 用一个星号\*或下划线_来包围文本  
 如：表示*italic*，可用
 ```
 *italic*
 _italic_
 ```
-### 加粗斜体
+### 3.3 加粗斜体
 为了同时用加粗和斜体强调文本，可以用三个星号\*或下划线_来包围文本  
 如：表示***very important***，可用
 ```
 ***very important***
 ___very important___
 ```
-## 引用
+## 4. 引用
 用`> quote`来表示引用，可以嵌套`>`来表示多层引用
 > This quote will change your life.
 >> It will reveal the secrets of the universe, and all the wonders of humanity. Don't misuse it.
 
-## 列表
-### 有序列表
+## 5. 列表
+### 5.1 有序列表
 你可以用任意的数字加点来表示有序列表，数字不一定要求有序，例如：
 ```markdown
 5. First item
@@ -117,14 +121,14 @@ ___very important___
 3. Third item
 5. Fourth item
 ```
-### 无序列表
+### 5.2 无序列表
 无序列表可在项目前面加 横线-，星号*或加号+，例如：
 ```markdown
 - First item
 - Second item
 - Third item
 ```
-## 代码块
+## 6. 代码块
 来创建代码块，可以用四个空格或者一个Tab来缩进行。另一种方法是用<code>```</code>或者`~~~`来包围代码块，这样就不必缩进行。
 
 用一下代码：
@@ -150,11 +154,11 @@ ___very important___
 </html>
 ```
 
-## 链接
+## 7. 链接
 用 `[an example](http://example.com/)` 来表示内嵌链接 [an example](http://example.com/)
-### 添加标题
+### 7.1 添加标题
 标题会在鼠标悬浮于链接时显示，如用`[an example](http://example.com/ "Title")`来表示包含标题的链接 [an example](http://example.com/ "Title") 
-### 快速转换链接
+### 7.2 快速转换链接
 将URL或者电子邮箱快速的转换成超文本链接，将它们用尖角号包围  
 ```
 <http://www.example.com>  
@@ -162,7 +166,7 @@ ___very important___
 ```
 <http://www.example.com>  
 <mustermann@gmx.com>
-### 参考样式链接
+### 7.3 参考样式链接
 参考样式链接用两组中括号来表示，括号直接可以有空格。第二中括号内为链接的标签，可包好字母、数字、空格、标点，不区分大小写。
 以下三种都能表达同一种参考样式链接
 
@@ -181,19 +185,19 @@ This is [an example][Id] reference-style link.
 ```
 参考样式链接的好处为相比与在括号内填写URL，可将链接URL在文章集中某处填写，从而增加源码的连续性和可读性。
 {: .green} 
-### 隐式链接名
+### 7.4 隐式链接名
 隐式链接名的简写可以让你省略标签，用链接文本代替。
 用 `[id][]` 来表示[id][]，即上述定义的标签为ID的链接。
 
  
-## 图片
+## 8. 图片
 要添加图片，用`![alt text](URL)`表示   
 例如：插入以下图片可以用`![favicon](/assets/favicon/android-chrome-192x192.png)`  
 ![favicon](/assets/favicon/android-chrome-192x192.png)
 
 
 
-## 表格
+## 9. 表格
 为了添加表格，可以用三个及以上的短横线`---`来创建表格列标题，用竖线`|`来分割列。
 ```markdown
 |Title 1               | Title 2               |
@@ -205,17 +209,17 @@ This is [an example][Id] reference-style link.
 
 要对齐整列，可以在短横线前后加入冒号来表示，如左对齐`:---`、居中`:---:`、右对齐`---:`
 
-## 杂项
-### 转义符
+## 10. 杂项
+### 10.1 转义符
 用`\`搭配字符可以输出字符本身
 
-### 删除线
+### 10.2 删除线
 用经过文本中央的水平线表示删除先，像这样~~not needed~~，用两个波浪线`~~`包围文本。
 
-### 水平线
+### 10.3 水平线
 用三个星号`***`、短横线`---`、下划线`___`来创建水平线
 
-### 任务清单
+### 10.4 任务清单
 ```markdown
 - [x] Write the press release
 - [ ] Update the website
@@ -225,7 +229,7 @@ This is [an example][Id] reference-style link.
 - [ ] Update the website
 - [ ] Contact the media
 
-### 脚注
+### 10.5 脚注
 脚注可以用来标注参考文献，用尖角号和标识符`[^1]`来创建脚注引用，标识符可以是数字或字母，不能包含空格和Tab。  
 标识符仅仅用来关联 脚注和脚注引用，输出结果时，脚注是以数字递增标号的。  
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
@@ -240,7 +244,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
     Add as many paragraphs as you like.
 
 
-### kramdown独有特性
+### 10.6 kramdown独有特性
 Kramdown是免费的MIT-licensed Ruby库，用来解析和转换Markdown的超集，在Jekyll中支持，可以用于GitHub搭建博客
 #### 块属性
 可以在段落结尾处加入  
