@@ -30,3 +30,9 @@
 .green{
     color:green
 }
+
+@media screen and (max-width:1600px){ 
+    #responsive{
+        visibility: hidden;
+    }
+}
