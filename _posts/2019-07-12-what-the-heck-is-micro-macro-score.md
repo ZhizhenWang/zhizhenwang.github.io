@@ -2,7 +2,8 @@
 layout: post
 title:  "Understanding the Micro-Macro Score"
 date: 2019-07-12 16:24:55 +0200
-tags: ml 
+tags: ml
+categories: Tech
 ---
 
 When we deal with multiclass or multilabel problems, the data is treated as binary classification problem (either one-vs-one or one-vs-rest). There're several ways to average binary metric values across the set of classes. Which we discussed here is micro and macro method.

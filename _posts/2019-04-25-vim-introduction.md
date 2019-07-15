@@ -3,7 +3,7 @@ layout: post
 title: "Vim终端编辑器"
 date: 2019-04-25 18:24:55 +0100
 tags: vi vim cheatsheet
-categories: 技术
+categories: Tech
 ---
 ## 1. 打开文件
 ### 1.1 打开或者新建文件

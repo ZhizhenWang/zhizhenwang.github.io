@@ -3,7 +3,7 @@ layout: post
 title: Markdown的语法规则
 date: 2019-02-12 23:28:55 +0100
 tags: markdown cheatsheet
-categories: 技术
+categories: Tech
 ---
 
 {::options parse_block_html="true" /}
