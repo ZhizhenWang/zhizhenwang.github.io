@@ -31,6 +31,15 @@
     color:green
 }
 
+.tag {
+    color: white;
+    background-color: #cacaca;
+    border-radius: 5px;
+    // border: 2px solid black;
+    padding: 2px 4px 4px; 
+}
+
+
 @media screen and (max-width:1600px){ 
     #responsive{
         visibility: hidden;
