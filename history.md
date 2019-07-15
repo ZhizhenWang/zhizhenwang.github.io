@@ -13,3 +13,10 @@ category: junk
 ### 2019-2-13
 - 加入中文字体Noto Serif SC/ Noto San SC
 - 自定义css文件
+
+### 2019-7-12
+- 加入Mathjax数学表达式的支持
+- 增加响应式layout，手机屏幕不显示目录
+
+### 2019-7-15
+- 增加文章标签显示
