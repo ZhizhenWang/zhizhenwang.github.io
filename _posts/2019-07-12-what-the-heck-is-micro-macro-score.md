@@ -2,7 +2,7 @@
 layout: post
 title:  "Understanding the Micro-Macro Score"
 date: 2019-07-12 16:24:55 +0200
-tags: ml
+tags: ml multiclass multilabel
 categories: Tech
 ---
 
