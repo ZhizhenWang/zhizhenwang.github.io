@@ -3,7 +3,7 @@ layout: post
 title:  "iloc and loc"
 date: 2019-07-12 16:24:55 +0200
 tags: pandas
-published: false
+published: true
 categories: Tech
 ---
 
